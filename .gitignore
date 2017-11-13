@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+*.log
+/.vs
+/LoadSelfMix/Release/LoadSelfMix.tlog
+*.pdb
+*.ipdb
+*.iobj
