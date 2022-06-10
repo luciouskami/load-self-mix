@@ -1,7 +1,16 @@
-﻿# load-self-mix
+# load-self-mix
 一个war3加载模型包和音效包的例子
 # 注意：魔兽是32位程序，请编译32位版本的dll
 1.物编中设置通用文件夹路径 :yourmapname/xxxx.mdx。  
+
 2.新建一个mpq文件，按照路径添加文件（模型，贴图，音效），注意要与物编中设置的路径完全一致。  
-3.二进制合并两个文件，执行批处理文件：copy /b LoadSelfMix.dll + FateSoundPack.mpq FateSoundPack.mixtape （名字自己改）。  
-4.放到魔兽目录下。  
+
+~~3.二进制合并两个文件，执行批处理文件：copy /b LoadSelfMix.dll + FateSoundPack.mpq FateSoundPack.mixtape （名字自己改）。~~  
+
+4.放到魔兽目录下。
+
+2022.06.10
+
+为方便拆分较大的模型包，只需要修改源码中的文件夹名字，并在文件夹下放置已经制作好的模型包，再讲插件放到魔兽根目录下即可。
+
+插件会自动遍历该文件夹下的所有mpq文件并加载。
