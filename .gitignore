@@ -36,3 +36,8 @@
 *.pdb
 *.ipdb
 *.iobj
+/LoadSelfMix/Debug
+/LoadSelfMix/Release/LoadSelfMix.dll.recipe
+/Release/使用方法.txt
+/Release/模型包加载器.zip
+/Release/cyfb_model_pack_loader.mix
