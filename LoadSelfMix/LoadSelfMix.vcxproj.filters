@@ -18,5 +18,19 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dll_module.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fp_call.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_module.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
